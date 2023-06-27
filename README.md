@@ -3,11 +3,7 @@
 I wanted a coding challenge. Since I know C# I wanted to try a similar language to get a wider range of experience. I created a program that will take a string of letters and numbers, 
 and find all the prime numbers throughout.
 
-
-
-{Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running and a walkthrough of the code. Focus should be on sharing what you learned about the language syntax.}
-
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/TWdEB5sDE1U)
 
 # Development Environment
 
