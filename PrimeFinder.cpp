@@ -80,28 +80,24 @@ vector<int> primeNumberPrinter(string str)
     return primes;
 }
 
-int main()
+
+void testConcatenate()
 {
-    string str = "abc2134kd31";
-    vector<int> primes = primeNumberPrinter(str);
-
-    for (const auto& num : primes) {
-        cout << num << " ";
-    }
-    cout << endl;
-
-    /*********************************
-    //Test Concatenate
+    cout << "Testing concatenate" << endl;
     int num1 = 45474534;
-    int num2 = 3
-        ;
-    cout << concatenate(num1, num2);
-    ********************************/
+    int num2 = 3;
 
-    /*****************************************
-    //Test is Prime
-    cout << sqrt(3) << endl;
-    cout << 3 % 2 << endl;
+    if (concatenate(num1, num2) == 454745343)
+    {
+        cout << "Test Passed!" << endl;
+    }
+    else cout << "Test Failed" << endl;
+    //cout << concatenate(num1, num2) << endl;
+}
+
+void tesIsPrime()
+{
+    cout << "Testing isPrime" << endl;
 
     for (int i = 0; i < 10; i++)
     {
@@ -116,6 +112,20 @@ int main()
             printf("printf false: %d\n", false);
         }
     }
-    **********************************************/
-   
+
+}
+
+int main()
+{
+    string str = "abc2134kd31";
+    vector<int> primes = primeNumberPrinter(str);
+
+    for (const auto& num : primes) {
+        cout << num << " ";
+    }
+    cout << endl;
+
+    // Testing
+    testConcatenate();
+    tesIsPrime();
 }
